@@ -16,7 +16,6 @@ app = Flask(__name__)
 
 # Set the URI for the MySQL database and disable modification tracking
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:password@host:port/vana-boutique'
-'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'secret'  # Set a secret key for session management
 
