@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\adelosreyes\Documents\vana-botique-main\venv
+=======
+set VIRTUAL_ENV=C:\Users\adelosreyes\Documents\vana-boutique\venv
+>>>>>>> 8d92741dea80b076702a7b4e3940e7515a9a7ab1
 
 if not defined PROMPT set PROMPT=$P$G
 
