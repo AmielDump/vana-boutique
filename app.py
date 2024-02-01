@@ -15,7 +15,7 @@ from sqlalchemy.exc import SQLAlchemyError
 app = Flask(__name__)
 
 # Set the URI for the MySQL database and disable modification tracking
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:GE5EA25aB6E56A2AFcF2cFD6BcaC5HCE@monorail.proxy.rlwy.net:46936/railway'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://ba54e6cc57b026:961fb33f@us-cluster-east-01.k8s.cleardb.net/heroku_37e9e3546ccaadf?reconnect=true'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'secret'  # Set a secret key for session management
 
